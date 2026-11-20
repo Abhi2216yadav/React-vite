@@ -15,19 +15,29 @@ import { State } from "./assets/components/hooks/State";
 export const App = () => { 
   
   return  (
-    // <section className="container">
-    //   {/* //using inline tailwindcss  */}
-    //   <h1 className = "text-blue-600/100 dark:text-sky-400/100 text text-center pb-5"> 
-    //   List of best Netflix Serise</h1> 
-    // {/* <Profile /> */}
-    // <NetflixSerise /> 
-    
-    // </section>
+    <section className="container">
+      {/* //using inline tailwindcss  */}
+    {/* //   <h1 className = "text-blue-600/100 dark:text-sky-400/100 text text-center pb-5">  */}
+    {/* //   List of best Netflix Serise</h1>  */}
+     {/* <Profile /> */}
+    {/* // <NetflixSerise />  */}
+    <State/>
+    <Sibling/>
+    </section>
     // <EventHandling/>
     // <EventProps/>
     // <EventPropagation/>
-    <State/>
+   
   );
 
 };
+
+export function Sibling() {
+  console.log("Sibling Component rendered");
+  return (
+    <div className="main-div">
+      <h2> Sibling Component</h2>
+    </div>
+  )
+}
 
