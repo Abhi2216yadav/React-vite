@@ -10,8 +10,8 @@ import "./assets/components/EventProps";
 // import { EventProps } from "./assets/components/EventProps";
 // import { EventPropagation } from "./assets/components/EventPropagation";
 
-import { State } from "./assets/components/hooks/State";
-
+// import { State } from "./assets/components/hooks/State";
+import { DericedState  } from "./assets/components/DericedState";
 export const App = () => { 
   
   return  (
@@ -21,8 +21,9 @@ export const App = () => {
     {/* //   List of best Netflix Serise</h1>  */}
      {/* <Profile /> */}
     {/* // <NetflixSerise />  */}
-    <State/>
-    <Sibling/>
+    {/* <State/>
+    <Sibling/> */}
+    <DericedState />
     </section>
     // <EventHandling/>
     // <EventProps/>
